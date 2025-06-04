@@ -146,7 +146,7 @@ def animate_epicycles(coeffs, freqs, num_vectors=300, x_max=300, y_max=300, save
 
 # === 5. EJECUCIÓN PRINCIPAL ===
 if __name__ == "__main__":
-    image_path = input("Ingresa la ruta de la imagen (PNG, JPG, JPEG, o usa 'assets/ejemplo.jpg'): ") or os.path.join("assets", "ejemplo.jpg")
+    image_path = input("Ingresa la ruta de la imagen (PNG, JPG, JPEG: ") or os.path.join("assets", "ejemplo.jpg")
     
     try:
         # Extraer contorno con previsualización
