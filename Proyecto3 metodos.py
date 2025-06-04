@@ -7,6 +7,8 @@ from numpy.fft import fft, fftfreq
 from matplotlib.animation import FuncAnimation
 import os
 
+# asegurse de tener instaladas las dependencias necesarias, especialmente pip install numpy matplotlib opencv-python
+
 # === 1. VALIDAR DEPENDENCIAS ===
 try:
     import cv2
